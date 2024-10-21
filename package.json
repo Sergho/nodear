@@ -1,0 +1,21 @@
+{
+  "name": "nodear",
+  "version": "1.0.0",
+  "description": "NodeJS smart voice assistant",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node ./index.ts"
+  },
+  "author": "Sergho",
+  "license": "ISC",
+  "dependencies": {
+    "node-microphone": "^0.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "@types/node-microphone": "^0.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
